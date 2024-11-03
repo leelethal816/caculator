@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    width: 30%;
+    height: auto;
+    aspect-ratio: 6 / 1;
+    border: 3px solid black;
+}
