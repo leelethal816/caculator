@@ -11,7 +11,12 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-    return (a / b).toFixed(2);
+    if (b !== 0) {
+        return (a / b).toFixed(2);
+    }
+    else {
+        return "Haha no more 0s!!!";
+    }
 }
 
 let a;
